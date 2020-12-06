@@ -20,10 +20,6 @@ import com.tubes.sandangin.utils.Constants;
 
 import java.util.List;
 
-/**
- * Created by Preeth on 1/5/18
- */
-
 public class Subcategories extends Fragment {
 
     ChildCategories childCategoriesCallback;

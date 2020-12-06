@@ -16,10 +16,6 @@ import com.tubes.sandangin.R;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- * Created by Preeth on 1/6/2018
- */
-
 public class FilterItemListAdapter extends BaseExpandableListAdapter {
 
     private Context _context;

@@ -26,10 +26,6 @@ import com.tubes.sandangin.pojo.User;
 import com.tubes.sandangin.utils.Constants;
 import com.tubes.sandangin.utils.Util;
 
-/**
- * Created by Preeth on 1/6/2018
- */
-
 public class SignUp extends Fragment {
 
     EditText name, email, password, mobile;

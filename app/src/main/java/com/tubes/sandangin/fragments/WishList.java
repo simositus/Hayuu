@@ -18,10 +18,6 @@ import com.tubes.sandangin.utils.Constants;
 
 import java.util.List;
 
-/**
- * Created by Preeth on 1/7/2018
- */
-
 public class WishList extends Fragment {
 
     @Nullable

@@ -25,10 +25,6 @@ import org.apmem.tools.layouts.FlowLayout;
 
 import java.util.List;
 
-/**
- * Created by Preeth on 1/3/2018
- */
-
 public class ProductDetails extends AppCompatActivity {
 
     Product product;

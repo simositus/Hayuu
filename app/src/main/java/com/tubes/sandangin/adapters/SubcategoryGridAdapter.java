@@ -23,10 +23,6 @@ import com.tubes.sandangin.utils.Constants;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by Preeth on 1/4/2018
- */
-
 public class SubcategoryGridAdapter extends BaseAdapter {
 
     private Context context;

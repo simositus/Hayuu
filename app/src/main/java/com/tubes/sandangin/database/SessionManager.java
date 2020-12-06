@@ -5,9 +5,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/**
- * Created by Preeth on 1/6/2018
- */
 
 public class SessionManager {
 
@@ -16,7 +13,7 @@ public class SessionManager {
 
     @SuppressLint("CommitPrefEdits")
     public SessionManager(Context context) {
-        this.SharedPref = context.getSharedPreferences("com.preethzcodez.ecommerceexample.database.PREFERENCE.", Activity.MODE_PRIVATE);
+        this.SharedPref = context.getSharedPreferences("com.tubes.sandangin.database.PREFERENCE.", Activity.MODE_PRIVATE);
         this.SharedPref_Editor = SharedPref.edit();
     }
 

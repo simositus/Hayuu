@@ -20,10 +20,6 @@ import java.util.List;
 
 import static com.tubes.sandangin.utils.Util.formatDouble;
 
-/**
- * Created by Preeth on 1/4/2018
- */
-
 public class DB_Handler extends SQLiteOpenHelper {
 
     // Database Version

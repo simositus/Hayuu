@@ -11,9 +11,6 @@ import java.net.UnknownHostException;
 import java.util.List;
 import java.util.Locale;
 
-/**
- * Created by Preeth on 1/5/18
- */
 
 // Utilities Class
 public class Util {

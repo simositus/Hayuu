@@ -11,10 +11,6 @@ import android.widget.TextView;
 
 import com.tubes.sandangin.R;
 
-/**
- * Created by Preeth on 1/5/2018
- */
-
 public class SortItemListAdapter extends BaseAdapter {
 
     private LayoutInflater inflater;

@@ -14,10 +14,6 @@ import android.view.animation.AnimationUtils;
 
 import com.tubes.sandangin.R;
 
-/**
- * Created by Preeth on 1/7/2018.
- */
-
 // Blank Fragment For Helping In Removing Fragment With Animation
 public class BlankFragment extends Fragment {
 

@@ -19,10 +19,6 @@ import com.tubes.sandangin.utils.Util;
 
 import java.util.List;
 
-/**
- * Created by Preeth on 1/7/2018
- */
-
 public class MyOrdersAdapter extends BaseAdapter {
 
     private Context context;

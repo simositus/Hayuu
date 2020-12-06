@@ -25,10 +25,6 @@ import com.tubes.sandangin.interfaces.FinishActivity;
 import com.tubes.sandangin.service.SyncDBService;
 import com.tubes.sandangin.utils.Constants;
 
-/**
- * Created by Preeth on 1/3/2018
- */
-
 public class SplashActivity extends AppCompatActivity implements FinishActivity {
 
     DB_Handler db_handler;

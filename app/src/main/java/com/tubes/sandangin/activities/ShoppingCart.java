@@ -24,9 +24,6 @@ import com.tubes.sandangin.utils.Constants;
 import java.text.DecimalFormat;
 import java.util.List;
 
-/**
- * Created by Preeth on 1/6/2018
- */
 
 public class ShoppingCart extends AppCompatActivity implements ShoppingCartListAdapter.UpdatePayableAmount, ShoppingCartListAdapter.MonitorListItems {
 

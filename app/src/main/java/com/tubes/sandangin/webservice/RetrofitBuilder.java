@@ -10,10 +10,6 @@ import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by Preeth on 1/4/18
- */
-
 public class RetrofitBuilder {
 
     private Context context;

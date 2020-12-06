@@ -1,9 +1,5 @@
 package com.tubes.sandangin.utils;
 
-/**
- * Created by Preeth on 1/4/18
- */
-
 public class Constants {
 
     // App Base URL

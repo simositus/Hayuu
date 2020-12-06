@@ -1,8 +1,6 @@
 package com.tubes.sandangin.pojo;
 
-/**
- * Created by Preeth on 1/6/2018.
- */
+
 
 public class User {
     private String name;

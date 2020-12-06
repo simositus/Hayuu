@@ -16,9 +16,6 @@ import com.tubes.sandangin.pojo.Category;
 
 import java.util.List;
 
-/**
- * Created by Preeth on 1/3/2018
- */
 
 public class Categories extends Fragment {
 

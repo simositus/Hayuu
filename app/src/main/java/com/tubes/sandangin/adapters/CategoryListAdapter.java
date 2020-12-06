@@ -15,9 +15,6 @@ import com.tubes.sandangin.utils.ExpandableHeightGridView;
 
 import java.util.List;
 
-/**
- * Created by Preeth on 1/4/2018
- */
 
 public class CategoryListAdapter extends BaseAdapter {
 

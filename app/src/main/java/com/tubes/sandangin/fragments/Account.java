@@ -21,10 +21,6 @@ import com.tubes.sandangin.interfaces.FinishActivity;
 import com.tubes.sandangin.pojo.User;
 import com.tubes.sandangin.utils.Constants;
 
-/**
- * Created by Preeth on 1/6/2018
- */
-
 public class Account extends Fragment {
 
     DB_Handler db_handler;
