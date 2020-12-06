@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Hayuu.iml" filepath="$PROJECT_DIR$/.idea/Hayuu.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Hayuu.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Hayuu.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UASaa.iml" filepath="$PROJECT_DIR$/.idea/modules/UASaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UASaa.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UASaa.app.iml" />
     </modules>
   </component>
 </project>

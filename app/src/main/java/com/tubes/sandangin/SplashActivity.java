@@ -103,7 +103,7 @@ public class SplashActivity extends AppCompatActivity implements FinishActivity 
                 public void run() {
                     loadNextActivity();
                 }
-            }, 3000);
+            }, 1000);
         } else {
             bottomLay.setVisibility(View.VISIBLE);
         }

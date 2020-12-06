@@ -3,7 +3,7 @@
     android:id="@+id/coordinatorLay"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary">
+    android:background="#FFEF64">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -14,8 +14,17 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="@string/splash_text"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="@dimen/SplashText" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="700dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="150dp"
+            android:src="@drawable/sandang">
+
+        </ImageView>
 
         <TableLayout
             android:visibility="gone"
@@ -36,7 +45,7 @@
                     android:layout_marginRight="2dp"
                     android:layout_marginTop="@dimen/halfMargin"
                     android:layout_weight="1"
-                    android:background="@drawable/rounded_corner_yellow"
+                    android:background="@drawable/rounded_corner_blue"
                     android:text="@string/signin"
                     android:textColor="@color/black"
                     android:textSize="@dimen/product_detail_button" />
@@ -50,7 +59,7 @@
                     android:layout_marginRight="@dimen/halfMargin"
                     android:layout_marginTop="@dimen/halfMargin"
                     android:layout_weight="1"
-                    android:background="@drawable/rounded_corner_yellow"
+                    android:background="@drawable/rounded_corner_blue"
                     android:text="@string/signup"
                     android:textColor="@color/black"
                     android:textSize="@dimen/product_detail_button" />
