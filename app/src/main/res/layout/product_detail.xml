@@ -67,7 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/defaultMargin"
-                android:text="Rs. 72,000"
+                android:text="Rp. 72,000"
                 android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/ProductPrice"
                 android:textStyle="bold" />

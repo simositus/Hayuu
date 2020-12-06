@@ -102,7 +102,7 @@ public class ShoppingCart extends AppCompatActivity implements ShoppingCartListA
         // Set Value
         DecimalFormat formatter = new DecimalFormat("#,###.00");
         TextView payable = findViewById(R.id.payableAmt);
-        payable.setText("Rs."+formatter.format(totalAmount));
+        payable.setText("Rp."+formatter.format(totalAmount));
     }
 
     // update payable amount

@@ -349,7 +349,7 @@ public class ProductDetails extends AppCompatActivity {
                                     }
 
                                     selectedItemVariantId = variant.getId();
-                                    price.setText("Rs." + selectedItemPrice);
+                                    price.setText("Rp." + selectedItemPrice);
                                     setColorLayout(colorList); // reload to refresh background
                                 } else {
                                     Toast.makeText(getApplicationContext(), R.string.size_select, Toast.LENGTH_LONG).show();

@@ -30,7 +30,7 @@
                 android:layout_margin="@dimen/defaultMargin"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Rs. 72,000"
+                android:text="Rp. 72,000"
                 android:textColor="@color/black"
                 android:textSize="@dimen/payable_amt" />
         </TableRow>

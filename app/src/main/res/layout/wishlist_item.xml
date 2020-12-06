@@ -39,7 +39,7 @@
             android:layout_below="@+id/title"
             android:layout_alignLeft="@+id/title"
             android:layout_marginTop="@dimen/defaultMargin"
-            android:text="Rs. 7000"
+            android:text="Rp. 7000"
             android:textColor="@color/black"
             android:textSize="16sp" />
     </RelativeLayout>

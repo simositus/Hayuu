@@ -122,11 +122,7 @@ public class MainActivity extends AppCompatActivity implements Subcategories.Chi
                     }
                     return true;
 
-                case R.id.nav_categories: // Categories
-                    ft.replace(R.id.content, new Categories());
-                    ft.commit();
-                    titleToolbar.setText(R.string.TitleCategories);
-                    return true;
+
 
                 case R.id.nav_shortlist: // Wish List
                     ft.replace(R.id.content, new WishList());

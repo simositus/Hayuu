@@ -86,8 +86,8 @@ public class MyOrdersAdapter extends BaseAdapter {
 
         holder.qty.setVisibility(View.VISIBLE);
         holder.qty.setText(String.valueOf("Quantity: "+quantity[0]));
-        holder.price.setText("Rs." + Util.formatDouble(calculatePrice(taxValue, priceValue, quantity[0])));
-        holder.tax.setText("("+taxName + ": Rs." + taxValue+")");
+        holder.price.setText("Rp." + Util.formatDouble(calculatePrice(taxValue, priceValue, quantity[0])));
+        holder.tax.setText("("+taxName + ": Rp." + taxValue+")");
 
 
         // Product Item Click

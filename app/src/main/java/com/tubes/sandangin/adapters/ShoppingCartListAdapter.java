@@ -97,8 +97,8 @@ public class ShoppingCartListAdapter extends BaseAdapter {
         final Double priceValue = Double.valueOf(shoppingCart.get(position).getVariant().getPrice());
 
         holder.qty.setText(String.valueOf(quantity[0]));
-        holder.price.setText("Rs." + Util.formatDouble(calculatePrice(taxValue, priceValue, quantity[0])));
-        holder.tax.setText("(" + taxName + ": Rs." + taxValue + ")");
+        holder.price.setText("Rp." + Util.formatDouble(calculatePrice(taxValue, priceValue, quantity[0])));
+        holder.tax.setText("(" + taxName + ": Rp." + taxValue + ")");
 
 
         // Product Item Click
@@ -145,7 +145,7 @@ public class ShoppingCartListAdapter extends BaseAdapter {
                     updateQuantity(quantity[0],position); // update in DB
                     shoppingCart.get(position).setItemQuantity(quantity[0]);
                     holder.qty.setText(String.valueOf(quantity[0]));
-                    holder.price.setText("Rs." + Util.formatDouble(calculatePrice(taxValue, priceValue, quantity[0])));
+                    holder.price.setText("Rp." + Util.formatDouble(calculatePrice(taxValue, priceValue, quantity[0])));
 
                     if (context instanceof UpdatePayableAmount) {
                         ((UpdatePayableAmount) context).updatePayableAmount(shoppingCart);
@@ -162,7 +162,7 @@ public class ShoppingCartListAdapter extends BaseAdapter {
                 updateQuantity(quantity[0],position); // update in DB
                 shoppingCart.get(position).setItemQuantity(quantity[0]);
                 holder.qty.setText(String.valueOf(quantity[0]));
-                holder.price.setText("Rs." + Util.formatDouble(calculatePrice(taxValue, priceValue, quantity[0])));
+                holder.price.setText("Rp." + Util.formatDouble(calculatePrice(taxValue, priceValue, quantity[0])));
 
                 if (context instanceof UpdatePayableAmount) {
                     ((UpdatePayableAmount) context).updatePayableAmount(shoppingCart);

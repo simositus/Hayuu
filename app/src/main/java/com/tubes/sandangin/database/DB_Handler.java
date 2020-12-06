@@ -639,9 +639,9 @@ public class DB_Handler extends SQLiteOpenHelper {
         double maximumPrice = Collections.max(priceList);
 
         if (minimumPrice == maximumPrice) {
-            return "Rs." + formatDouble(maximumPrice);
+            return "Rp." + formatDouble(maximumPrice);
         } else {
-            return "Rs." + formatDouble(minimumPrice) + " - Rs." + formatDouble(maximumPrice);
+            return "Rp." + formatDouble(minimumPrice) + " - Rp." + formatDouble(maximumPrice);
         }
     }
 

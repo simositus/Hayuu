@@ -52,7 +52,7 @@
         android:layout_below="@+id/name"
         android:textColor="@color/black"
         android:layout_marginLeft="@dimen/defaultMargin"
-        android:text="Rs.72,000"
+        android:text="Rp.72,000"
         android:layout_marginRight="@dimen/defaultMargin"
         android:maxLines="1"
         android:singleLine="true"
