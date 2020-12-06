@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.preethzcodez.ecommerceexample">
+    package="com.tubes.sandangin">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -11,18 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity">
+        <activity android:name="com.tubes.sandangin.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".activities.MyOrders"/>
-        <activity android:name=".activities.ShoppingCart"/>
-        <activity android:name=".activities.ProductDetails"/>
-        <service android:name=".service.SyncDBService"/>
+        <activity android:name="com.tubes.sandangin.MainActivity"/>
+        <activity android:name="com.tubes.sandangin.activities.MyOrders"/>
+        <activity android:name="com.tubes.sandangin.activities.ShoppingCart"/>
+        <activity android:name="com.tubes.sandangin.activities.ProductDetails"/>
+        <service android:name="com.tubes.sandangin.service.SyncDBService"/>
     </application>
 
 </manifest>

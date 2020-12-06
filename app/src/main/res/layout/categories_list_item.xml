@@ -15,7 +15,7 @@
         android:textSize="@dimen/CategoryTitleSize"
         android:textStyle="bold" />
 
-    <com.preethzcodez.ecommerceexample.utils.ExpandableHeightGridView
+    <com.tubes.sandangin.utils.ExpandableHeightGridView
         android:id="@+id/subcategories"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
